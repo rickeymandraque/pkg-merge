@@ -44,7 +44,7 @@ func main() {
 	flag.Parse()
 
 	if *directory == "" {
-		fmt.Fprintf(os.Stderr, "No directory supplied\nUsage:\npkg-merge.exe -dir \"myPkgDirectory\"\n")
+		fmt.Fprintf(os.Stderr, "No directory supplied\nUsage:\npkg-merge -dir \"myPkgDirectory\"\n")
 		os.Exit(1)
 	}
 
