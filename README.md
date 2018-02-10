@@ -1,3 +1,6 @@
+# Forked from https://github.com/Tustin/pkg-merge
+A linux portage for Linux (gnome/nautilus)
+
 # pkg-merge
 Merges .PKG parts into one PKG file. Used for PS4 PKG files that come split into 4gb parts from the PlayStation Store.
 
@@ -19,6 +22,16 @@ Create a folder and put all your pkgs inside this folder
 
 Run the program using the following command:
 
-`pkg-merge.exe -dir "myDir"` (replace myDir with your folder name)
+`pkg-merge -dir "myDir"` (replace myDir with your folder name)
 
 The program will merge all the pkg parts into the root pkg file (the one with _0 at the end of the name)
+
+# Installation
+
+sudo cp /usr/bin /your/path/pkg-merge
+sudo chmod 751 /usr/bin/pkg-merge
+
+## TO DO
+Nautilus Script
+detect and rename PKGs
+Delete or not PKGs parts
