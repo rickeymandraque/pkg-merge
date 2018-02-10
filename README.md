@@ -7,6 +7,7 @@ Merges .PKG parts into one PKG file. Used for PS4 PKG files that come split into
 
 ## Compiling from source
 Install Go on your system: https://golang.org/dl/
+
 On Debian based: sudo apt-get install golang
 
 Setup your Go environment: https://skife.org/golang/2013/03/24/go_dev_env.html
