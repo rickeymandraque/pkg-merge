@@ -1,0 +1,7 @@
+#!/bin/sh
+# nautilus script for merged PS4's PKGs
+# installation: copy this script in ~/.local/share/nautilus/scripts
+# utilisation: right click on folder contain PKGs
+cd $NAUTILUS_SCRIPT_CURRENT_URI
+pkg-merge -dir $@ 
+zenity --info --text "all PKGs are merged"
